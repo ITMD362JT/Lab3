@@ -198,8 +198,32 @@ html {
   text-rendering: optimizeLegibility;
 }
 
+body {
+   font-family: 'Source Sans Pro', sans-serif;
+}
+
+h1 {
+  font-weight: bold;
+  font-style: italic;
+  margin-bottom: 10px;
+  font-size: 1.2em;
+}
+
+p {
+  font-family: 'Noto Sans', sans-serif;
+  margin-bottom: 10px;
+}
+
+ol {
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
 label {
   display: block;
+}
+
+#input-submit {
+  margin-top: 10px;
 }
 
 /* ===== LAYOUT STYLES ====== */
